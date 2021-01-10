@@ -1,18 +1,7 @@
-#include "gettingStarted.h"
 #include <stdio.h>
+#include "gettingStarted.h"
 
-//added coments
-
-int main(int argc, char const *argv[])
+void main(void)
 {
-	int c;
-	printf("Please choose which program run:\n");
-	if ((c = getchar()) == '1')
-	{
-		gettingStarted();
-	} else 
-	{
-		printf("program does not exist\n");
-	}	
-	return 0;
+	gettingStarted();
 }

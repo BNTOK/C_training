@@ -1,1 +1,1 @@
-void gettingStarted(void);
+extern void gettingStarted(void);
