@@ -1,6 +1,8 @@
 #include "gettingStarted.h"
 #include <stdio.h>
 
+//added coments
+
 int main(int argc, char const *argv[])
 {
 	int c;
