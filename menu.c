@@ -2,6 +2,7 @@
 #include "gettingStarted.h"
 
 void menuText(void);
+void emtyLine(void);
 
 void menu(void)
 {
@@ -14,9 +15,13 @@ void menu(void)
 		if (c == '1')
 		{
 			printf("1.1\tGetting started\n");
+			emtyLine;
 			gettingStarted();
-			printf("1.2\tVariables and Arithmetic Expression\n");
+			emtyLine();
+			printf("1.2\tVariables and Arithmetic Expression version one\n");
+			emtyLine;
 			variablesAndArithmeticExpressionsV1();
+			emtyLine();
 			menuText();
 		}
 		if (c == '2' )
@@ -60,4 +65,9 @@ void menuText(void)
 	printf("7:\tInput and Output\n");
 	printf("8:\tThe UNIX System Interface\n");
 	printf("8:\tfor exit uses q\n");
+}
+
+void emtyLine(void)
+{
+	printf("\n");
 }
