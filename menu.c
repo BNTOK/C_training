@@ -15,11 +15,11 @@ void menu(void)
 		if (c == '1')
 		{
 			printf("1.1\tGetting started\n");
-			emtyLine;
+			emtyLine();
 			gettingStarted();
 			emtyLine();
 			printf("1.2\tVariables and Arithmetic Expression version one\n");
-			emtyLine;
+			emtyLine();
 			variablesAndArithmeticExpressionsV1();
 			emtyLine();
 			menuText();
