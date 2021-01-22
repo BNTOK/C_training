@@ -22,7 +22,7 @@ void menu(void)
 			emtyLine();
 			variablesAndArithmeticExpressionsV1();
 			emtyLine();
-			printf("1.2\t Varialbe and Arithmetic Expressions version two");
+			printf("1.2\tVarialbe and Arithmetic Expressions version two");
 			emtyLine();
 			variablesAndAritmeticExpresionV2();
 			emtyLine();
