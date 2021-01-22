@@ -27,7 +27,7 @@ void menu(void)
 			variablesAndAritmeticExpresionV2();
 			emtyLine();
             printf("1.4\tSymbolic Constants");
-            emtyLine;
+            emtyLine();
             symbolicConstants();
 			menuText();
 		}
