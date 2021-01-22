@@ -22,6 +22,10 @@ void menu(void)
 			emtyLine();
 			variablesAndArithmeticExpressionsV1();
 			emtyLine();
+			printf("1.2\t Varialbe and Arithmetic Expressions version two");
+			emtyLine();
+			variablesAndAritmeticExpresionV2();
+			emtyLine();
 			menuText();
 		}
 		if (c == '2' )
