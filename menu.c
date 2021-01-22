@@ -26,6 +26,9 @@ void menu(void)
 			emtyLine();
 			variablesAndAritmeticExpresionV2();
 			emtyLine();
+            printf("1.4\tSymbolic Constants");
+            emtyLine;
+            symbolicConstants();
 			menuText();
 		}
 		if (c == '2' )
